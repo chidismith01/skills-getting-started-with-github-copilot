@@ -1,5 +1,140 @@
-* {
-  box-sizing: border-box;
+<!DOCTYPE html>/* Initial code for styles.css *//* Initial code for styles.css */* {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>  </body>    <script src="app.js"></script>    </footer>      <p>&copy; 2023 Mergington High School</p>    <footer>    </main>      </section>        <div id="message" class="hidden"></div>        </form>          <button type="submit">Sign Up</button>          </div>            </select>              <!-- Activity options will be loaded here -->              <option value="">-- Select an activity --</option>            <select id="activity" required>            <label for="activity">Select Activity:</label>          <div class="form-group">          </div>            <input type="email" id="email" required placeholder="your-email@mergington.edu" />            <label for="email">Student Email:</label>          <div class="form-group">        <form id="signup-form">        <h3>Sign Up for an Activity</h3>      <section id="signup-container">      </section>        </div>          <p>Loading activities...</p>          <!-- Activities will be loaded here -->        <div id="activities-list">        <h3>Available Activities</h3>      <section id="activities-container">    <main>    </header>      <h2>Extracurricular Activities</h2>      <h1>Mergington High School</h1>    <header>  <body>  </head>    <link rel="stylesheet" href="styles.css" />    <title>Mergington High School Activities</title>    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    <meta charset="UTF-8" />  <head><html lang="en">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}    width: 100%;    bottom: 0;    position: relative;    text-align: center;    padding: 10px 0;    background-color: #f8f9fa;footer {/* Footer styles */}    padding: 20px;main {/* Main content styles */}    color: #007bff;    text-decoration: none;    margin: 0 15px;nav a {}    margin: 10px 0;nav {/* Navigation styles */}    text-align: center;    padding: 10px 0;    background-color: #f8f9fa;header {/* Header styles */}    font-family: Arial, sans-serif;    padding: 0;    margin: 0;body {/* Body styles */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}    width: 100%;    bottom: 0;    position: relative;    text-align: center;    padding: 10px 0;    background-color: #f1f1f1;footer {/* Footer styles */}    padding: 20px;main {/* Main content styles */}    text-decoration: underline;nav a:hover {}    color: #007bff;    text-decoration: none;    margin: 0 15px;nav a {}    margin: 10px 0;nav {/* Navigation styles */}    text-align: center;    padding: 10px 0;    background-color: #f1f1f1;header {/* Header styles */}    font-family: Arial, sans-serif;    color: #000000;    background-color: #ffffff;body {/* Example style *//* Add your styles below this comment */  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -141,4 +276,31 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.participants-section {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #eef2fa;
+  border-radius: 4px;
+}
+
+.participants-section strong {
+  color: #3949ab;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.participants-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #333;
+  font-size: 15px;
+  padding-left: 0;
+}
+
+.no-participants {
+  color: #888;
+  font-style: italic;
+  margin-left: 4px;
 }
